@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="?selectableItemBackground"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/course_image"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="@dimen/dimen_100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/no_image" />
+
+    <TextView
+        android:id="@+id/course_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/inter"
+        android:lines="1"
+        android:maxEms="12"
+        android:textColor="?courseTitleColor"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintStart_toEndOf="@+id/course_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/course_price"
+        tools:text="2022 Complete Python Bootcamp From Zero to Hero in Python" />
+
+    <TextView
+        android:id="@+id/course_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Free"
+        android:fontFamily="@font/inter"
+        android:textColor="?colorOnPrimary"/>
+
+    <TextView
+        android:id="@+id/course_headline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/inter"
+        android:textSize="@dimen/text_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/course_image"
+        app:layout_constraintTop_toBottomOf="@+id/course_title"
+        tools:text="Learn Python like a Professional  Start from the basics and go all the way to creating your own applications and games" />
+
+
+    <View
+        android:id="@+id/sep"
+        android:layout_width="0dp"
+        android:layout_height="0.6dp"
+        android:layout_marginStart="16dp"
+        android:background="?separator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/course_image" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/course_image"
+        app:layout_constraintEnd_toEndOf="@+id/course_image"
+        app:layout_constraintStart_toStartOf="@+id/course_image"
+        app:layout_constraintTop_toTopOf="@+id/course_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Skool" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/purple_500</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_500</item>
+        <item name="colorSecondaryVariant">@color/purple_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Customize your theme here. -->
+        <item name="toolBarTint">@color/white</item>
+        <item name="bottomNavActiveTint">@color/purple_500</item>
+        <item name="bottomNavInactiveTint">@color/grey</item>
+        <item name="courseTitleColor">@color/black_charcoal</item>
+        <item name="separator">@color/light_grey</item>
+        <item name="chipColor">@color/dark_grey</item>
+    </style>
+</resources>

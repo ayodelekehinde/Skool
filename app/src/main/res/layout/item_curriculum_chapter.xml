@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/chapter_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_16"
+    android:ellipsize="end"
+    android:fontFamily="@font/inter"
+    android:lines="1"
+    android:maxEms="12"
+    android:textStyle="bold"
+    android:textColor="?courseTitleColor"
+    android:textSize="@dimen/text_16"
+    tools:text="Lecture 1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

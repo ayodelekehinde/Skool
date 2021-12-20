@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/tabsFragment">
+
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.cherrio.skool.presentation.pick_course.WelcomeFragment"
+        android:label="WelcomeFragment" >
+
+        <action
+            android:id="@+id/action_welcomeFragment_to_tabsFragment"
+            app:destination="@id/tabsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tabsFragment"
+        android:name="com.cherrio.skool.presentation.tab.TabsFragment"
+        android:label="TabsFragment">
+
+        <action
+            android:id="@+id/action_tabsFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_tabsFragment_to_courseDetailFragment"
+            app:destination="@id/courseDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/courseDetailFragment"
+        android:name="com.cherrio.skool.presentation.details.CourseDetailFragment"
+        android:label="CourseDetailFragment">
+        <argument
+            android:name="course"
+            app:argType="com.cherrio.skool.domain.response_entity.Course"
+            />
+        <deepLink
+            app:uri="skool://detailsFragment/{course}"/>
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    android:id="@+id/curriculum_no"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/Widget.MaterialComponents.Chip.Choice"
+    android:layout_margin="@dimen/dimen_8"
+    android:fontFamily="@font/inter"
+    android:lines="1"
+    app:chipBackgroundColor="@color/chip_color"
+    android:textColor="@color/white"
+    android:textSize="@dimen/text_14"
+    tools:text="Development"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/text_menu_home"
+        android:id="@+id/tab_home"
+        android:icon="@drawable/ic_round_home"
+        />
+    <item android:title="@string/txt_menu_saved"
+        android:id="@+id/tab_saved"
+        android:icon="@drawable/ic_round_favorite"/>
+
+    <item android:title="@string/txt_menu_search"
+        android:id="@+id/tab_search"
+        android:icon="@drawable/ic_round_search"/>
+</menu>

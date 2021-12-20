@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/tab_home">
+
+    <fragment
+        android:id="@+id/tab_home"
+        android:name="com.cherrio.skool.presentation.home.HomeFragment"
+        android:label="@string/txt_home" >
+        <action
+            android:id="@+id/action_tab_home_to_tab_saved"
+            app:destination="@id/tab_saved" />
+    </fragment>
+    <fragment
+        android:id="@+id/tab_saved"
+        android:name="com.cherrio.skool.presentation.saved.FavouritesFragment"
+        android:label="@string/txt_favourites" >
+    </fragment>
+    <fragment
+        android:id="@+id/tab_search"
+        android:name="com.cherrio.skool.presentation.search.SearchFragment"
+        android:label="@string/txt_search" />
+
+
+
+</navigation>

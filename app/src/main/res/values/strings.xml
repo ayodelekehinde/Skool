@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Skool</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_pick_your_course">Pick your course</string>
+    <string name="txt_pick_course_desc">Don\'t worry you\'ll be able to change it within the app.</string>
+    <string name="text_menu_home">Home</string>
+    <string name="txt_menu_saved">Saved</string>
+    <string name="txt_menu_search">Search</string>
+    <string name="txt_curriculum">Curriculum</string>
+    <string name="txt_lecture">Lecture</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_favourites">Favourites</string>
+    <string name="txt_search">Search</string>
+    <string name="deeplink_details_Fragment">com.cherrio.skool/detailsFragment/{course}</string>
+    <string name="txt_no_favourites">You have no saved courses</string>
+    <string name="txt_filter_header">Course filter</string>
+
+    <string name="txt_price_free">price-free</string>
+    <string name="txt_price_paid">price-paid</string>
+
+    <string name="txt_level_all">all</string>
+    <string name="txt_level_beginner">beginner</string>
+    <string name="txt_level_intermediate">intermediate</string>
+    <string name="txt_level_expert">expert</string>
+
+    <string name="txt_order_relevance">relevance</string>
+    <string name="txt_order_most">most-reviewed</string>
+    <string name="txt_order_rated">highest-rated</string>
+    <string name="txt_order_new">newest</string>
+    <string name="txt_order_high">price-low-to-high</string>
+    <string name="txt_order_low">price-high-to-low</string>
+
+
+
+
+</resources>

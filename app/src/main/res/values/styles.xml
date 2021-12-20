@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashTheme" parent="Theme.Skool">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="SkoolBottomNavText" parent="">
+        <item name="fontFamily">@font/inter</item>
+    </style>
+
+    <style name="SkoolBottomNavText.Active" parent="SkoolBottomNavText">
+        <item name="android:textColor">?bottomNavActiveTint</item>
+    </style>
+
+    <style name="SkoolBottomNavText.Inactive" parent="SkoolBottomNavText">
+        <item name="android:textColor">?bottomNavInactiveTint</item>
+    </style>
+
+</resources>

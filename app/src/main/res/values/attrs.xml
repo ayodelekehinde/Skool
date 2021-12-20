@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="toolBarTint" format="color"/>
+    <attr name="bottomNavInactiveTint" format="color"/>
+    <attr name="bottomNavActiveTint" format="color"/>
+    <attr name="courseTitleColor" format="color"/>
+    <attr name="separator" format="color"/>
+    <attr name="chipColor" format="color"/>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="?colorPrimaryVariant"/>
+
+    <item
+        android:drawable="@drawable/ic_school_24px"
+        android:gravity="center"
+        android:width="@dimen/dimen_120"
+        android:height="@dimen/dimen_100"/>
+
+<!--    <item>-->
+<!--        <bitmap android:gravity="center"-->
+<!--            android:src="@drawable/ic_school" />-->
+
+<!--    </item>-->
+
+</layer-list>
